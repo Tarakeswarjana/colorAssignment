@@ -18,8 +18,17 @@ function Parent() {
         padding: "3rem",
       }}
     >
+      <label>
+        Enter Parentcolor
+        <input
+          onChange={(e) => {
+            color.setchildcolor(e.target.value);
+          }}
+          type="color"
+        ></input>
+      </label>
+
       <Child />
-      Parent
     </div>
   );
 }

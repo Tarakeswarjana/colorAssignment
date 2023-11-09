@@ -16,10 +16,17 @@ function Grandperent() {
       }}
     >
       <div>
-        {" "}
+        <label>
+          Enter Grandperentcolor
+          <input
+            onChange={(e) => {
+              color.setparentcolor(e.target.value);
+            }}
+            type="color"
+          ></input>
+        </label>
         <Parent />
       </div>
-      Grandperent
     </div>
   );
 }
