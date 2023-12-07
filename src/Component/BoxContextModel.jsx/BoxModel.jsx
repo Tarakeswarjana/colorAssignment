@@ -17,8 +17,6 @@ function BoxModel() {
     >
       <ColorContext>
         <Grandperent />
-        {/* <Child />
-        <Parent /> */}
       </ColorContext>
     </div>
   );

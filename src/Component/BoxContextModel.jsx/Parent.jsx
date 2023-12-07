@@ -10,7 +10,6 @@ function Parent() {
   return (
     <div
       style={{
-        // color: color.parentcolor,
         background: color.parentcolor,
         width: "100%",
         height: "100%",

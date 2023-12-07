@@ -11,7 +11,7 @@ function Grandperent() {
         width: "100%",
 
         padding: "3rem",
-        // height: "50vh",
+
         background: color.Grandcolor,
       }}
     >
